@@ -25,9 +25,7 @@
             "outputPath": "dist/temira-web-admin",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": [],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -105,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3a299bc9-59fd-4c91-9719-b38e83853884"
   }
 }
